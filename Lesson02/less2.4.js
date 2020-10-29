@@ -8,16 +8,16 @@
 
 function SumNumb(var_1, var_2) {
     return var_1 + var_2
-}
+};
 
 function SubNumb(var_1, var_2) {
     return var_1 - var_2
-}
+};
 
 function DivNumb(var_1, var_2) {
     return var_1 / var_2
-}
+};
 
 function MullNumb(var_1, var_2) {
     return var_1 * var_2
-}
+};

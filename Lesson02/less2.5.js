@@ -12,19 +12,19 @@ let c = prompt('Что сделать: +, -, *, /')
 
 function SumNumb(var_1, var_2) {
     return var_1 + var_2
-}
+};
 
 function SubNumb(var_1, var_2) {
     return var_1 - var_2
-}
+};
 
 function DivNumb(var_1, var_2) {
     return var_1 / var_2
-}
+};
 
 function MullNumb(var_1, var_2) {
     return var_1 * var_2
-}
+};
 
 function mathOperation(arg1, arg2, operation) {
     switch (operation) {
@@ -37,6 +37,6 @@ function mathOperation(arg1, arg2, operation) {
         case '*':
             return MullNumb(arg1, arg2);
     }
-}
+};
 
-alert(mathOperation(a, b, c))
+alert(mathOperation(a, b, c));
