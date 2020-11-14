@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <b>Lorem, ipsum.</b>
     <b class="sign">Lorem, ipsum.</b>
@@ -19,7 +21,17 @@
     -->
 
     <script>
-        
+        'use strict';
+        let teg_b = document.getElementsByTagName('b');
+        console.log(teg_b);
+        for (let i = 0; i < teg_b.length; i++) {
+            let classes = document.querySelectorAll('b')[i];
+            classes = classes.classList;
+            if (classes.contains('sign') == false) {
+                classes.add('sign');
+            };
+        }
     </script>
 </body>
+
 </html>
